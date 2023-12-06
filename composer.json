@@ -1,0 +1,33 @@
+{
+    "name": "maviance/php-assignement",
+    "description": "PHP Assignement",
+    "type": "library",
+    "license": "maviance",
+    "authors": [
+        {
+            "name": "maviance"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Maviance\\PHPTest\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.mavdev.eu/"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "psr/log": "@stable",
+        "ext-json": "*",
+        "ext-psr": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
